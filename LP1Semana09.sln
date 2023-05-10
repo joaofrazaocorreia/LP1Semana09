@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalPerspective", "AnimalPerspective\AnimalPerspective.csproj", "{01EB24F2-69B2-465E-9585-144AEB8AFA49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager1", "PlayerManager1\PlayerManager1.csproj", "{FF4764B8-528E-4206-B1AF-C5254DE32857}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{01EB24F2-69B2-465E-9585-144AEB8AFA49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01EB24F2-69B2-465E-9585-144AEB8AFA49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01EB24F2-69B2-465E-9585-144AEB8AFA49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4764B8-528E-4206-B1AF-C5254DE32857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4764B8-528E-4206-B1AF-C5254DE32857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4764B8-528E-4206-B1AF-C5254DE32857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4764B8-528E-4206-B1AF-C5254DE32857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
