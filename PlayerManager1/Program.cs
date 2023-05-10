@@ -121,9 +121,12 @@ namespace PlayerManager1 // >>> Change to PlayerManager2 for exercise 4 <<< //
         /// </summary>
         private void ListPlayersWithScoreGreaterThan()
         {
-            // /////////////////// //
-            // COMPLETE ME PLEASE! //
-            // /////////////////// //
+            Console.Write("Insert minimum score: ");
+            minScore = Console.ReadLine();
+            foreach (Player p in GetPlayersWithScoreGreaterThan(minScore))
+            {
+                Console.WriteLine($"Player {p.Name} has {p.Score} score!");
+            }
         }
 
         /// <summary>
@@ -136,7 +139,7 @@ namespace PlayerManager1 // >>> Change to PlayerManager2 for exercise 4 <<< //
         private IEnumerable<Player> GetPlayersWithScoreGreaterThan(int minScore)
         {
             IEnumerable<Player> playersWithGreatScore;
-            foreach (Player p in playersToList)
+            foreach (Player p in playerList)
             {
                 if (p.Score >= minScore)
                     playersWithGreatScore.Add(p);
