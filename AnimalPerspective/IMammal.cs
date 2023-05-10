@@ -5,13 +5,8 @@ using System.Threading.Tasks;
 
 namespace AnimalPerspective
 {
-    public class Bat : Animal, IMammal
+    public interface IMammal
     {
-       public override string Sound()
-        {
-            return "Squeak!";
-        } 
-
         public int NumberOfNipples{ get; }
     }
 }
