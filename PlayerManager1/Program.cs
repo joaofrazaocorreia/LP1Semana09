@@ -94,11 +94,9 @@ namespace PlayerManager1 // >>> Change to PlayerManager2 for exercise 4 <<< //
         /// <summary>
         /// Inserts a new player in the player list.
         /// </summary>
-        private void InsertPlayer()
+        private void InsertPlayer(string name, int score)
         {
-            // /////////////////// //
-            // COMPLETE ME PLEASE! //
-            // /////////////////// //
+            playerList.Add(Player(name, score));
         }
 
         /// <summary>
