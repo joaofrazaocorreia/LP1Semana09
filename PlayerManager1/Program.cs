@@ -86,9 +86,22 @@ namespace PlayerManager1 // >>> Change to PlayerManager2 for exercise 4 <<< //
         /// </summary>
         private void ShowMenu()
         {
-            // /////////////////// //
-            // COMPLETE ME PLEASE! //
-            // /////////////////// //
+            Console.WriteLine(
+                "-------------------------------------------------------");
+            Console.WriteLine(
+                "Welcome to the player manager! Please choose an option:");
+            Console.WriteLine(
+                "-------------------------------------------------------");
+            Console.WriteLine(
+                "Type 1 to insert a new player!");
+            Console.WriteLine(
+                "Type 2 to list all players!");
+            Console.WriteLine(
+                "Type 3 to list all players with a chosen minimum score!");
+            Console.WriteLine(
+                "Type 4 to quit!");
+            Console.WriteLine(
+                "-------------------------------------------------------");
         }
 
         /// <summary>
