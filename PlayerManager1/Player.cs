@@ -13,7 +13,7 @@ namespace PlayerManager1
         public Player(string name, int score)
         {
             Name = name;
-            Score = Score;
+            Score = score;
         }
     }
 }
